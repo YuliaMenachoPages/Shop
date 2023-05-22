@@ -6,8 +6,8 @@ import Cart from './Cart'
 import Footer from './Footer'
 
 function App() {
-    const [cartData, setCartData] = useState(sessionStorage.getItem('cartData') !== null ? JSON.parse(sessionStorage.getItem('cartData')) : [])
-    const [cartCount, setCartCount] = useState(JSON.parse(sessionStorage.getItem('cartData')).length > 0 ? JSON.parse(sessionStorage.getItem('cartData')).map((cartItem) => (cartItem.quantity)).reduce((a, b) => a + b) : 0)
+    const [cartData, setCartData] = useState(sessionStorage.getItem('cartData') ? JSON.parse(sessionStorage.getItem('cartData')) : [])
+    const [cartCount, setCartCount] = useState(cartData.length > 0 ? JSON.parse(sessionStorage.getItem('cartData')).map((cartItem) => (cartItem.quantity)).reduce((a, b) => a + b) : 0)
 
     function handleCartData() {
         setCartData(JSON.parse(sessionStorage.getItem('cartData')))
@@ -30,7 +30,7 @@ function App() {
     }
 
     function handleCartCount() {
-        setCartCount(JSON.parse(sessionStorage.getItem('cartData')).length > 0 ? JSON.parse(sessionStorage.getItem('cartData')).map((cartItem) => (cartItem.quantity)).reduce((a, b) => a + b) : 0)
+        setCartCount( JSON.parse(sessionStorage.getItem('cartData')).length > 0 ? JSON.parse(sessionStorage.getItem('cartData')).map((cartItem) => (cartItem.quantity)).reduce((a, b) => a + b) : 0)
     }
 
     return (
