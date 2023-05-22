@@ -1,0 +1,6 @@
+.footer__nav {
+    display: flex;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+}

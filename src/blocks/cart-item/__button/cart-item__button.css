@@ -1,0 +1,20 @@
+.cart-item__button {
+    width: 35px;
+    height: 30px;
+    background-color: #FFCE7F;
+    border: none;
+    border-radius: 50%;
+    transition: opacity 0.3s;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+.cart-item__button:hover {
+    opacity: 0.7;
+}
+
+.cart-item__button:disabled {
+    opacity: 0.5;
+}

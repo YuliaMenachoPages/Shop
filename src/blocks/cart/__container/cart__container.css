@@ -1,0 +1,16 @@
+.cart__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+@media screen and (max-width: 1240px) {
+    .cart__container {
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+}

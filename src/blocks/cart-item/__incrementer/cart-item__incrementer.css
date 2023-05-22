@@ -1,0 +1,5 @@
+.cart-item__incrementer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,14 @@
+.cart-item__delete {
+    background-image: url("../../../images/Bin.svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 17px;
+    border: none;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+.cart-item__delete:hover {
+    opacity: 0.7;
+}

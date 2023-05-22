@@ -1,0 +1,4 @@
+.header__icon_type_cart {
+    background-image: url("../../../../images/Cart.svg");
+    cursor: pointer;
+}

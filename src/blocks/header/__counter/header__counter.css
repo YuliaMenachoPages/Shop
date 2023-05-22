@@ -1,0 +1,9 @@
+.header__counter {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}

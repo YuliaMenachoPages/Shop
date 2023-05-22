@@ -1,0 +1,16 @@
+.item__star {
+    border: none;
+    background-image: url("../../../images/Star.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    width: 23px;
+    height: 21px;
+    margin: 0 10px 0 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+.item__star:hover {
+    opacity: 0.7;
+}

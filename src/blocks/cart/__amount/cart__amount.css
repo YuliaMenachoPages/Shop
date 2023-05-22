@@ -1,0 +1,7 @@
+.cart__amount {
+
+}
+
+.cart__amount::before {
+    content: "₽ ";
+}

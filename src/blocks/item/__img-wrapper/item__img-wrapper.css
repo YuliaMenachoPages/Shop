@@ -1,0 +1,7 @@
+.item__img-wrapper {
+    margin: 15px 65px 0 65px;
+    box-sizing: border-box;
+    display: flex;
+    height: 270px;
+    justify-content: center;
+}

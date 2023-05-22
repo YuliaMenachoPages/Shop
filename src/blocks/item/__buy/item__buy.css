@@ -1,0 +1,31 @@
+.item__buy {
+    border: none;
+    background-color: transparent;
+    transition: opacity 0.3s;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.item__buy:hover {
+    opacity: 0.7;
+}
+
+.item__buy:active {
+    opacity: 1;
+}
+
+.item__buy:disabled {
+    cursor: unset;
+}
+
+.item__buy:disabled:hover {
+    opacity: 1;
+}
+
+
+

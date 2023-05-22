@@ -1,0 +1,9 @@
+.cart-item {
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    padding: 18px 28px 18px 18px;
+}

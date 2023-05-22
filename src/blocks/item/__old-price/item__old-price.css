@@ -1,0 +1,13 @@
+.item__old-price {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: transparent;
+    text-decoration: line-through;
+    padding: 0;
+    margin: 0;
+}
+
+.item__old-price::after {
+    content: " ₽"
+}

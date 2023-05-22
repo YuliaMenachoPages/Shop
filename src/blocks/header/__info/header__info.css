@@ -1,0 +1,7 @@
+.header__info {
+    display: flex;
+    flex-direction: row;
+    width: 90px;
+    justify-content: space-between;
+
+}

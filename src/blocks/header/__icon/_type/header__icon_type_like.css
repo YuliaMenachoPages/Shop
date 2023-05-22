@@ -1,0 +1,4 @@
+.header__icon_type_like {
+    background-image: url("../../../../images/Heart.svg");
+    cursor: pointer;
+}

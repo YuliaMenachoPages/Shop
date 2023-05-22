@@ -1,0 +1,12 @@
+.cart-item__price {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    color: rgba(170, 170, 170, 1);
+    margin: 0;
+    padding: 0;
+}
+
+.cart-item__price::after {
+    content: " ₽"
+}

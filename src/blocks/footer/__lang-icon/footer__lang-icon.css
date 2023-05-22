@@ -1,0 +1,8 @@
+.footer__lang-icon {
+    background-image: url("../../../images/Lang.svg");
+    width: 16px;
+    aspect-ratio: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

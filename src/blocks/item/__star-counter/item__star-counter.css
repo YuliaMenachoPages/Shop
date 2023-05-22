@@ -1,0 +1,8 @@
+.item__star-counter {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(131, 131, 131, 1);
+    margin: 0;
+    padding: 0;
+}

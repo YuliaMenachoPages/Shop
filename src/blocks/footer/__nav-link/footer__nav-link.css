@@ -1,0 +1,13 @@
+.footer__nav-link {
+    text-decoration: none;
+    transition: opacity 0.3s;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.footer__nav-link:hover {
+    opacity: 0.7;
+}

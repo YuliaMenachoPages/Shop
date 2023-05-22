@@ -1,0 +1,7 @@
+.cart__total-amount {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 22px;
+    box-sizing: border-box;
+}
